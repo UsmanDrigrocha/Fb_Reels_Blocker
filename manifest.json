@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Close Facebook Reels",
+    "version": "1.0",
+    "description": "Closes any tab containing facebook.com/reel",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
